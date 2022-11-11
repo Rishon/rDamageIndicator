@@ -7,13 +7,14 @@ import org.bukkit.entity.Entity;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * @param handler MainHandler
+ */
 @Getter
-public class NMSHandler implements HandlerInterface {
+public record NMSHandler(MainHandler handler) implements Handler {
 
     // Map of all spawned armor stands
     private static Map<Entity, ArmorStandData> armorStandData;
-    // MainHandler
-    private final MainHandler handler;
 
     public NMSHandler(MainHandler handler) {
         this.handler = handler;

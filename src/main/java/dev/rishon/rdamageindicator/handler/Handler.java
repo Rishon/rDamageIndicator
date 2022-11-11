@@ -1,6 +1,6 @@
 package dev.rishon.rdamageindicator.handler;
 
-public interface HandlerInterface {
+public interface Handler {
 
     void init();
 

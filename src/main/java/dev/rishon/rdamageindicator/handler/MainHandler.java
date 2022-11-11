@@ -6,7 +6,7 @@ import lombok.Data;
 import org.bukkit.plugin.PluginManager;
 
 @Data
-public class MainHandler implements HandlerInterface {
+public class MainHandler implements Handler {
 
     private final Main plugin;
 
