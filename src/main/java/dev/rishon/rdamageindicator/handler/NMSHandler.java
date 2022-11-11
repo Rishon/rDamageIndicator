@@ -1,7 +1,6 @@
 package dev.rishon.rdamageindicator.handler;
 
 import dev.rishon.rdamageindicator.nms.ArmorStandData;
-import lombok.Getter;
 import org.bukkit.entity.Entity;
 
 import java.util.Map;
@@ -10,7 +9,6 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * @param handler MainHandler
  */
-@Getter
 public record NMSHandler(MainHandler handler) implements Handler {
 
     // Map of all spawned armor stands
