@@ -50,10 +50,11 @@ public class ArmorStandData {
         ArmorStand stand = (ArmorStand) armorStand.getBukkitEntity();
         stand.setCustomName(colored(damage));
         stand.setCustomNameVisible(true);
-        stand.setSmall(true);
-        stand.setBasePlate(false);
-        stand.setArms(false);
         stand.setInvisible(true);
+        stand.setArms(false);
+        stand.setBasePlate(false);
+        stand.setSmall(true);
+        stand.setMarker(false);
     }
 
     public void spawnIndicator() {
