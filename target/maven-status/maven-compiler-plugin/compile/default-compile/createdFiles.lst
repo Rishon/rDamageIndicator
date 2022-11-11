@@ -1,0 +1,8 @@
+dev\rishon\rdamageindicator\Main.class
+dev\rishon\rdamageindicator\nms\ArmorStandData.class
+dev\rishon\rdamageindicator\handler\MainHandler.class
+dev\rishon\rdamageindicator\listeners\DamageEvent.class
+dev\rishon\rdamageindicator\commands\DamageIndicatorCMD.class
+dev\rishon\rdamageindicator\handler\HandlerInterface.class
+dev\rishon\rdamageindicator\handler\NMSHandler.class
+dev\rishon\rdamageindicator\Utils.class

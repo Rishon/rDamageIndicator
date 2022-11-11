@@ -1,0 +1,7 @@
+name: rDamageIndicator
+version: '1.0'
+main: dev.rishon.rdamageindicator.Main
+api-version: 1.19
+authors: [ Rishon ]
+description: Asynchronous Damage Indicator
+website: https://rishon.systems
